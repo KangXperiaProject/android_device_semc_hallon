@@ -14,5 +14,8 @@ SENSORS_PRESSURE_BMP180 := false
 
 TARGET_QCOM_HDMI_OUT := false
 
+#Recovery
+TARGET_RECOVERY_INITRC := device/semc/hallon/recovery/init.rc
+
 TARGET_OTA_ASSERT_DEVICE := MT15i,MT15a,hallon
 
